@@ -16,7 +16,7 @@ function App() {
     if (Storage.getToken()) {
       checkAuth();
     }
-  }, []);
+  }, [Storage]);
 
   return (
     <Layout>
